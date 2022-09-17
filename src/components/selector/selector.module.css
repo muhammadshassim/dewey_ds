@@ -1,0 +1,22 @@
+.Selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.055),
+    20px 13px 13px rgba(0, 0, 0, 0.076),
+    90px 55px 55px rgba(0, 0, 0, 0.28);
+    background-color: darkred;
+    margin: 10px 10px;
+}
+
+.Selector > h1 {
+    color: white;
+}
+
+.Selector:hover {
+    padding: 10px;
+    cursor: pointer;
+}
