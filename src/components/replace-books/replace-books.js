@@ -4,123 +4,123 @@ import './replace-books.css';
 let data = [ 
   {
     id: 1,
-    name: "Book 1",
-    author: "Author 1",
-    call: "001.12"
+    name: "The Potato",
+    author: "Burton W G",
+    call: "635.217"
   },
   {
     id: 2,
-    name: "Book 2",
-    author: "Buthor 2",
-    call: "002"
+    name: "Past, Present and Future",
+    author: "Isaac Saruman",
+    call: "500.500"
   },
   {
     id: 3,
-    name: "Book 3",
-    author: "Cuthor 3",
-    call: "003"
+    name: "The Lord of the Rings",
+    author: "Tolkien J R R",
+    call: "750.003"
   },
   {
     id: 4,
-    name: "Book 4",
-    author: "Author 4",
-    call: "004"
+    name: "Harry Potter",
+    author: "Rowling J K",
+    call: "737.554"
   },
   {
     id: 5,
-    name: "Book 5",
-    author: "Author 5",
-    call: "005"
+    name: "The Strategic President",
+    author: "George Edwards",
+    call: "352.230"
   },
   {
     id: 6,
-    name: "Book 6",
-    author: "Author 6",
-    call: "006"
+    name: "British Potatoes in Perspective",
+    author: "Potato man",
+    call: "666.217"
   },
   {
     id: 7,
-    name: "Book 7",
-    author: "Author 7",
-    call: "007"
+    name: "Sherlock Holmes",
+    author: "Arthur Doyle",
+    call: "785.235"
   },
   {
     id: 8,
-    name: "Book 8",
-    author: "Author 8",
-    call: "008"
+    name: "Moby Dick",
+    author: "Herman Melville",
+    call: "712.009"
   },
   {
     id: 9,
-    name: "Book 9",
-    author: "Author 9",
-    call: "009"
+    name: "David Copperfield",
+    author: "Charles Dickens",
+    call: "123.456"
   },
   {
     id: 10,
-    name: "Book 10",
-    author: "Author 10",
-    call: "010"
+    name: "How to Choke Slam a Guy",
+    author: "Brock Lesner 10",
+    call: "595.789"
   },
   {
     id: 11,
-    name: "Book 11",
-    author: "Author 11",
-    call: "011"
+    name: "War and Peace",
+    author: "Sally Gold",
+    call: "248.357"
   },
   {
     id: 12,
-    name: "Book 12",
-    author: "Author 12",
-    call: "012"
+    name: "Bride and PreJuice",
+    author: "Jack Smith",
+    call: "459.326"
   },
   {
     id: 13,
-    name: "Book 13",
-    author: "Author 13",
-    call: "013"
+    name: "40 shades of prostate exams",
+    author: "William Shatner PHD",
+    call: "656.321"
   },
   {
     id: 14,
-    name: "Book 14",
-    author: "Author 14",
-    call: "014"
+    name: "Himself",
+    author: "Joey Tribiani",
+    call: "786.786"
   },
   {
     id: 15,
-    name: "Book 15",
-    author: "Author 15",
-    call: "015"
+    name: "Gorgeous Lies",
+    author: "Martha Stuart",
+    call: "800.012"
   },
   {
     id: 16,
-    name: "Book 16 ",
-    author: "Author 16",
-    call: "016"
+    name: "Toll The Hounds",
+    author: "Rex Luthor",
+    call: "596.300"
   },
   {
     id: 17,
-    name: "Book 17",
-    author: "Author 17",
-    call: "017"
+    name: "The art of War",
+    author: "Xiao Mao",
+    call: "863.210"
   },
   {
     id: 18,
-    name: "Book 18",
-    author: "Author 18",
-    call: "018"
+    name: "Mein Kampf",
+    author: "Hiltler Adolf",
+    call: "999.999"
   },
   {
     id: 19,
-    name: "Book 19",
-    author: "Author 19",
-    call: "019"
+    name: "Turning Cheeks",
+    author: "Jose Murrino",
+    call: "492.197"
   },
   {
     id: 20,
-    name: "Book 20",
-    author: "Author 20",
-    call: "020"
+    name: "Isle De Muerta",
+    author: "John",
+    call: "124.364"
   },
 ]
 
@@ -253,7 +253,7 @@ const checkAscendingOrder = () => {
       </div>
       <div className="colOneLower">
         <h3>Information</h3>
-        <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h5>
+        <h5>This is a simple program, the user is required to first press the replace books button, there after 10 randomly generated books will appear. The user will then be required to place books into the correct order, if the order is correct, the program will award the user with 5 points, if the user is wrong, 5 points will be subtracted</h5>
       </div>
     </div>
   </div>
