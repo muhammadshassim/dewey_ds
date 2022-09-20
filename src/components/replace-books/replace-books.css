@@ -51,7 +51,13 @@
     height: 50%;
     justify-content: center;
     align-items: center;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-wrap: break-word;
 }
+
 
 .colOneLower > h3 {
     color: white;
@@ -103,7 +109,7 @@
 }
 
 .colTwo > .list {
-    height: 85%;
+    height: 86%;
     width: 400px;
     border: 2px dotted darkcyan;
     margin: 10px 15px;
@@ -121,7 +127,7 @@
     margin: 10px 20px;
 }
 
-.colTwo > .list > .book {
+.eachBook {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +140,7 @@
 }
 
 .selected {
-    background-color: darkcyan;
-    font-size: 32px;
-    border: 5p solid black;
+    background-color: darkred;
+    color: white;
+    border: 3px solid black;
 }
